@@ -1,2 +1,3 @@
+HERE IS SOME STUFF I CHANGED IN MY CLASS DEMO BRANCH
 # about-me
 code 201 class project
