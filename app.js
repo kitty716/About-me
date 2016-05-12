@@ -17,19 +17,22 @@ function question1 () {
 
 question1();
 
-/*
-
 //2nd q
 var response2 = prompt('Do I study in Code Fellows?').toLowerCase();
 console.log('Do I study in Code Fellows? ' + response2);
 var answer2 = 'yes';
 
-if (response2 === answer2 || response2 === answer2[0]) {
-  alert('You are correct, ' + userName + '! I start Code201 in May.');
-} else {
-  alert('Wrong! ' + userName + ', I start Code201 in May.');
+function question2() {
+  if (response2 === answer2 || response2 === answer2[0]) {
+    alert('You are correct, ' + userName + '! I start Code201 in May.');
+  } else {
+    alert('Wrong! ' + userName + ', I start Code201 in May.');
+  }
 }
 
+question2();
+
+/*
 //3rd q
 var response3 = prompt('Did I graduate from college in Washington State?').toLowerCase();
 console.log('Did I graduate from college in Washington State? ' + response3);
