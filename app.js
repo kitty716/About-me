@@ -32,18 +32,22 @@ function question2() {
 
 question2();
 
-/*
 //3rd q
 var response3 = prompt('Did I graduate from college in Washington State?').toLowerCase();
 console.log('Did I graduate from college in Washington State? ' + response3);
 var answer3 = 'no';
 
-if (response3 === answer3 || response3 === answer3[0]) {
-  alert('You are correct, ' + userName + '! I graduated in Texas.');
-} else {
-  alert('Incorrect! ' + userName + ', I graduated in Texas.');
+function question3() {
+  if (response3 === answer3 || response3 === answer3[0]) {
+    alert('You are correct, ' + userName + '! I graduated in Texas.');
+  } else {
+    alert('Incorrect! ' + userName + ', I graduated in Texas.');
+  }
 }
 
+question3();
+
+/*
 //4th q
 var response4 = prompt('Do I like eating dessert?').toLowerCase();
 console.log('Do I like eating dessert? ' + response4);
