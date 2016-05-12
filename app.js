@@ -7,11 +7,17 @@ var response1 = prompt('Do I have pets?').toLowerCase();
 console.log('Do I have pets? ' + response1);
 var answer1 = 'yes';
 
-if (response1 === answer1 || response1 === answer1[0]) {
-  alert('You are correct, ' + userName + '! I have a lovely dog.');
-} else {
-  alert('Nope, I really do have a lovely dog.');
+function question1 () {
+  if (response1 === answer1 || response1 === answer1[0]) {
+    alert('You are correct, ' + userName + '! I have a lovely dog.');
+  } else {
+    alert('Nope, I really do have a lovely dog.');
+  }
 }
+
+question1();
+
+/*
 
 //2nd q
 var response2 = prompt('Do I study in Code Fellows?').toLowerCase();
@@ -73,3 +79,5 @@ for(var i = 0; i < 4 && response6 !== answer6; i++) {
     alert('Please enter a number<1,2,3,4,5,6...>');
   }
 }
+
+*/
