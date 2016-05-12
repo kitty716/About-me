@@ -62,17 +62,20 @@ function question4() {
 
 question4();
 
-/*
 //5th q
 var response5 = prompt('Is Spurs my favorite NBA team?').toLowerCase();
 console.log('Is Spurs my favorite NBA team? ' + response5);
 var answer5 = 'yes';
 
-if (response5 === answer5 || response5 === answer5[0]) {
-  alert('You are correct, ' + userName + '! GO SPURS !!!');
-} else {
-  alert('Incorrect! ' + userName + ', Spurs is my favorite NBA team since college.');
+function question5() {
+  if (response5 === answer5 || response5 === answer5[0]) {
+    alert('You are correct, ' + userName + '! GO SPURS !!!');
+  } else {
+    alert('Incorrect! ' + userName + ', Spurs is my favorite NBA team since college.');
+  }
 }
+
+question5();
 
 //6th q
 var answer6 = 10;
@@ -90,5 +93,3 @@ for(var i = 0; i < 4 && response6 !== answer6; i++) {
     alert('Please enter a number<1,2,3,4,5,6...>');
   }
 }
-
-*/
