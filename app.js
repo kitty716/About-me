@@ -72,4 +72,23 @@ for(var i = 0; i < 4 && response6 !== answer6; i++) {
   } else {
     alert('Please enter a number<1,2,3,4,5,6...>');
   }
+
+//7th q
+var answer7 = ['texas', 'california', 'oregon'];
+var response7;
+var counterIndex = 0;
+for(var i = 0; i < 6 && response7 !== answer7[counterIndex]; i++) {
+  response7 = prompt('Can you guess a state that I have lived in besides Washington? Please DO NOT enter State Abbreviation.').toLowerCase();
+  console.log(response7);
+  counterIndex++;
+  console.log(counterIndex);
+
+  if (response7 === answer7[counterIndex]) {
+    alert( userName +',you are correct! ' + 'I have lived in '+ response7.toUpperCase() + '!!!');
+    break;
+  } else if (response7 !== answer7[counterIndex]) {
+    alert('Incorrect! ' + userName + ', I have NOT lived in '+ response7.toUpperCase() + '.');
+  } else {
+    alert('Please DO NOT enter State Abbreviation.');
+
 }
