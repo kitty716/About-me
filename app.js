@@ -47,18 +47,22 @@ function question3() {
 
 question3();
 
-/*
 //4th q
 var response4 = prompt('Do I like eating dessert?').toLowerCase();
 console.log('Do I like eating dessert? ' + response4);
 var answer4 = 'yes';
 
-if (response4 === answer4 || response4 === answer4[0]) {
-  alert('You are correct, ' + userName + '! Dessert makes my day bright!');
-} else {
-  alert('Wrong! ' + userName + ', please bring me a dessert with bubble tea later!');
+function question4() {
+  if (response4 === answer4 || response4 === answer4[0]) {
+    alert('You are correct, ' + userName + '! Dessert makes my day bright!');
+  } else {
+    alert('Wrong! ' + userName + ', please bring me a dessert with bubble tea later!');
+  }
 }
 
+question4();
+
+/*
 //5th q
 var response5 = prompt('Is Spurs my favorite NBA team?').toLowerCase();
 console.log('Is Spurs my favorite NBA team? ' + response5);
