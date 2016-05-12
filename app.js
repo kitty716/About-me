@@ -56,3 +56,20 @@ if (response5 === answer5 || response5 === answer5[0]) {
 } else {
   alert('Incorrect! ' + userName + ', Spurs is my favorite NBA team since college.');
 }
+
+//6th q
+var answer6 = 10;
+for(var i = 0; i < 4 && response6 !== answer6; i++) {
+  var response6 = parseInt(prompt('How old is my lovely dog?'));
+  console.log('How old is my lovely dog? ' + response6);
+
+  if (response6 === answer6) {
+    alert('You are correct, ' + userName + '! He is 10 years old!!!');
+  } else if (response6 > answer6) {
+    alert('Incorrect! ' + userName + ', He is younger than ' + response6 + '.');
+  } else if (response6 < answer6) {
+    alert('Incorrect! ' + userName + ', He is older than ' + response6 + '.');
+  } else {
+    alert('Please enter a number<1,2,3,4,5,6...>');
+  }
+}
